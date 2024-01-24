@@ -2,10 +2,9 @@ package main
 
 import (
 	"fmt"
-	"time"
+	"math/rand"
 )
 
 func main() {
-	fmt.Println("Welcome to the Playground!")
-	fmt.Println("The Time is", time.Now())
+	fmt.Println("A random number is", rand.Intn(100))
 }
